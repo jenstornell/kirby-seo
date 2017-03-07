@@ -4,11 +4,11 @@ You need to call a function in your template / snippet / pattern to make it work
 
 **In my `header.php` I do like this:**
 
-When using this example it will output the HTML as well.
+The function `seo()` will return the values with added HTML tags:
 
 ```html
-<?php seo('title'); ?>
-<?php seo('description'); ?>
+<?php echo seo('title'); ?>
+<?php echo seo('description'); ?>
 ```
 
 Output:
@@ -18,13 +18,11 @@ Output:
 <meta name="description" content="Some description">
 ```
 
-When using this example it will return the value.
-
-Because you return it and therefor want to control it, it does not wrap it in HTML. If you want HTML, warp it yourself or create a snippet / pattern for it.
+It's also possible to just return the values, without the HTML tags:
 
 ```html
-<?php echo seo('title', array(), true); ?>
-<?php echo seo('description', array(), true); ?>
+<?php echo seo('title')->value(); ?>
+<?php echo seo('description')->value(); ?>
 ```
 
 Output:
