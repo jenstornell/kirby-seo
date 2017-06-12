@@ -1,0 +1,8 @@
+{
+  "name": "seo",
+  "description": "A search engine results page (SERP) preview field for the panel.",
+  "author": "Jens Törnell <jens.tornell@gmail.com>",
+  "license": "MIT",
+  "version": "0.5.0",
+  "type": "kirby-plugin"
+}
