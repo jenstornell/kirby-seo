@@ -288,7 +288,11 @@ class SeoCore {
 	public static function urlPreview( $url ) {
 		$url_parts = parse_url($url);
 		$scheme = ( $url_parts['scheme'] == 'https' ) ? 'https://' : '';
-		$uri = $scheme . $url_parts['host'] . $url_parts['path'];
+		if( empty($url_parts['path'] ) ) {
+			$uri = $scheme . $url_parts['host'];
+		} else {
+			$uri = $scheme . $url_parts['host'] . $url_parts['path'];
+		}
 		return $uri;
 	}
 
