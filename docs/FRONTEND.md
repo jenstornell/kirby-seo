@@ -2,9 +2,9 @@
 
 You need to call a function in your template / snippet / pattern to make it work.
 
-**In my `header.php` I do like this:**
+**In my `header.php` I do it like this:**
 
-When using this example it will output the HTML as well.
+Using the following example it will output the HTML as well.
 
 ```html
 <?php echo seo('title'); ?>
@@ -18,9 +18,9 @@ Output:
 <meta name="description" content="Some description">
 ```
 
-When using this example it will return the value.
+Using this example it will only return the value.
 
-Because you return it and therefor want to control it, it does not wrap it in HTML. If you want HTML, warp it yourself or create a snippet / pattern for it.
+This way you just return its value o suit your needs without wrapping it in HTML. If you want HTML, wrap it yourself or create a snippet / pattern for it.
 
 ```html
 <?php echo seo('title', array(), true); ?>

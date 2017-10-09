@@ -7,11 +7,11 @@ There are two types of controllers.
 
 ## Fallbacks
 
-If for example the title is not set in the panel, it will fallback to the template controller.
+If for example the title is not set in the panel, it will fall back to the template controller.
 
-If the template controller does not contain a title template, it will fallback to the site controller title template.
+If the template controller does not contain a title template, it will fall back to the site controller title template.
 
-If the site controller does not contain a title template, it will fallback to the site title.
+If the site controller does not contain a title template, it will fall back to the site title.
 
 ## Template controller
 
@@ -62,7 +62,7 @@ return function($site, $pages, $page) {
 };
 ```
 
-The above can be a template controller or a site controller. They have exactly the same parameters
+The above can be a template controller or a site controller. They have exactly the same parameters.
 
 ## Controllers in the panel
 
@@ -72,10 +72,10 @@ The controllers will help you in the panel as well.
 
 Below the edit title and description you will find a small helper table if you have added a controller.
 
-From there you can see what the fallback will be if no title is set and what dynamic values that can be used.
+From there you can see what the fallback will be if no title is set and which dynamic values can be used.
 
 ### Value replacement
 
 If you have `product` as a key in your controller with a value, you can add {{product}} in your title and description. It will be replaced with the value set in your controller.
 
-If the value changes, it will be reflected in the title and description.
+If the value changes, this will be reflected in the title and description.

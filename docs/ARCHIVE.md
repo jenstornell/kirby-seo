@@ -13,7 +13,7 @@ I created a page in the panel called `admin` and inside that another page called
 In your blueprint, add something like this:
 
 ```yml
-title: Seo Archive
+title: SEO Archive
 pages:
   hide: true
   limit: 25
@@ -30,11 +30,11 @@ fields:
 
 ## Pagination
 
-Set a page limit like the example above to have a paginated seo archive.
+Set a page limit like the example above to have a paginated SEO archive.
 
 ## Exclude pages
 
-You can exclude pages from the result by adding their uri into a list in your blueprint, like the example above.
+You can exclude pages from the result by adding their URI into a list in your blueprint, like the example above.
 
 ## Future
 

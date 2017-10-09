@@ -4,6 +4,6 @@ l::set( array(
 	'seo.description' => 'SEO metabeskrivning',
 	'fallback' => 'Standardvärde',
 	'values' => 'Värden',
-	'plugin.required' => 'Seo-plugin krävs!',
+	'plugin.required' => 'SEO plugin krävs!',
 	'description.empty' => 'Detta är en metabeskrivning som visas i sökresultaten. Lämna tomt för att låta sökmotorerna hämta relevant text från sidans innehåll.'
 ));

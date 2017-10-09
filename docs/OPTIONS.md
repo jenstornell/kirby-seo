@@ -2,7 +2,7 @@
 
 ## A list of options
 
-If you want to override any of the sensible default values, add the option to your `site/config/config.php` fileDefault values are set below:
+If you want to override any of the sensible default values, add the option to your `site/config/config.php` file. Default values are set below:
 
 ```php
 // Path to SEO controller file
