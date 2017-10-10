@@ -1,6 +1,4 @@
-
-
-<div class="seo" data-seo-controller='<?php echo json_encode( $controller ); ?>'>
+<div class="seo" data-seo-controller='<?php echo json_encode( $controller, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE ); ?>'>
 
 	<div class="seo-preview">
 		<div class="seo-wrap seo-wrap-title">
