@@ -4,7 +4,9 @@
 		<div class="seo-wrap seo-wrap-title">
 			<div class="seo-view seo-view-title"></div>
 		</div>
-		<a class="seo-wrap seo-wrap-url" data-modal="" href="<?php echo $controller['url']['edit']; ?>">
+		<a class="seo-wrap seo-wrap-url"<?php 
+		   // test whether Page allows changing URL, and whether User has permission to change it
+		   if($page->ui()->url() && site()->user()->can('panel.page.url')): ?> data-modal="" href="<?php echo $controller['url']['edit']; ?>"<?php endif ?>>
 			<div class="seo-view seo-view-url"><?php echo $controller['url']['preview']; ?></div>
 		</a>
 		<div class="seo-wrap seo-wrap-description">
