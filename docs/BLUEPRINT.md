@@ -1,6 +1,6 @@
 # Blueprint
 
-Add your seo field to the blueprint like this:
+Add your SEO field to the blueprint like this:
 
 ```yaml
 fields:
